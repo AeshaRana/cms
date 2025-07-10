@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es2016",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "checkJs": true,
+    "paths": {
+      "src/*": ["./*"],
+      "components/*": ["./components/*"],
+      "services/*": ["./services/*"],
+      "static/*": ["./static/*"],
+      "images/*": ["./static/images/*"],
+      "css/*": ["./static/css/*"],
+      "containers/*": ["./containers/*"],
+      "redux/*": ["./redux/*"],
+      "constants/*": ["./constants/*"],
+      "systemConfig": ["./systemconfig/index.js"],
+      "util/*": ["./util/*"],
+      "lib/*": ["./lib/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
